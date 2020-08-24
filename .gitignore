@@ -5,7 +5,7 @@ yarn-debug.log*
 yarn-error.log*
 /nei.*/
 .stylelintcache
-
+.editorconfig
 # Editor directories and files
 .idea
 .vscode
