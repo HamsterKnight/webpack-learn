@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./assets/common.css":
+/*!***************************!*\
+  !*** ./assets/common.css ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("var style = document.createElement('style')\n  style.innerHTML=`html, body {\n  height: 1000px;\n  width: 1000px;\n  background: #ccc;\n}\n`\n  document.head.appendChild(style)\n\n//# sourceURL=webpack:///./assets/common.css?");
+
+/***/ }),
+
 /***/ "./src/a.js":
 /*!******************!*\
   !*** ./src/a.js ***!
@@ -104,7 +115,7 @@ eval("var a = 123\r\nconsole.log('a被调用了')\r\nmodule.exports = 'a'\n\n//#
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var a = __webpack_require__(/*! ./a.js */ \"./src/a.js\")\r\nconsole.log('module index', a)\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__(/*! ../assets/common.css */ \"./assets/common.css\")\nvar a = __webpack_require__(/*! ./a.js */ \"./src/a.js\")\nconsole.log('module index', a)\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
