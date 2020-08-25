@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/a.js":
-/*!******************!*\
-  !*** ./src/a.js ***!
-  \******************/
+/***/ "./src/assets/webpack.png":
+/*!********************************!*\
+  !*** ./src/assets/webpack.png ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var a = 123\r\nconsole.log('a被调用了')\r\nmodule.exports = 'a'\n\n//# sourceURL=webpack:///./src/a.js?");
+eval("module.exports=`img-52b60.png`\n\n//# sourceURL=webpack:///./src/assets/webpack.png?");
 
 /***/ }),
 
@@ -104,7 +104,7 @@ eval("var a = 123\r\nconsole.log('a被调用了')\r\nmodule.exports = 'a'\n\n//#
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var a = __webpack_require__(/*! ./a.js */ \"./src/a.js\")\r\nconsole.log('module index', a)\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("var imgSrc = __webpack_require__(/*! ./assets/webpack.png */ \"./src/assets/webpack.png\")\nvar img = document.createElement('img')\nimg.src = imgSrc\ndocument.body.appendChild(img)\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

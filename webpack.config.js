@@ -5,18 +5,19 @@ module.exports = {
     main: './src/index.js' // 属性名： chunk的名称，属性值： 入口模块
   },
   output: {
-    path: path.resolve(__dirname, 'target'),// 必须配置一个绝对路径，表示资源放置的文件夹默认是dist
-    filename: '[name]-[hash].js' // 配置合并模块后的js代码文件的规则（可以是写死的一个文件名，也可以是一个路径和名字）
+    path: path.resolve(__dirname, 'dist'),// 必须配置一个绝对路径，表示资源放置的文件夹默认是dist
+    filename: '[name].js' // 配置合并模块后的js代码文件的规则（可以是写死的一个文件名，也可以是一个路径和名字）
   },
   module: {
     rules:[
       {
-        test: /\.js$/, // 匹配的文件
+        test: /\.(png)|(jpg)|(jpeg)|(gif)$/, // 匹配的文件
         use: [
           {
-            loader: './loaders/test-loader',
+            loader: './loaders/img-loader',
             options: {
-              name: '曾世鑫'
+              limit: 10000,
+              filename: 'img-[contenthash:5].[ext]'
             }
           }
         ]// 对匹配的文件进行加工处理 // loader可以是一个数组，也可以是一个字符串 // loader的加载是从右到左的
