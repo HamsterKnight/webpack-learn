@@ -1,4 +1,5 @@
 const path = require('path')
+const MyPlugin = require('./plugin/MyPlugin')
 module.exports = {
   mode: 'development',
   entry: {
@@ -28,5 +29,6 @@ module.exports = {
          // var options = loaderUtils.getOptions(this)
       }
     ]
-  }
+  },
+  plugins: [new MyPlugin()]
 }
