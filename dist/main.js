@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports=`img-52b60.png`\n\n//# sourceURL=webpack:///./src/assets/webpack.png?");
+module.exports=`img-52b60.png`
 
 /***/ }),
 
@@ -104,8 +104,13 @@ eval("module.exports=`img-52b60.png`\n\n//# sourceURL=webpack:///./src/assets/we
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var imgSrc = __webpack_require__(/*! ./assets/webpack.png */ \"./src/assets/webpack.png\")\nvar img = document.createElement('img')\nimg.src = imgSrc\ndocument.body.appendChild(img)\n\n\n//# sourceURL=webpack:///./src/index.js?");
+var imgSrc = __webpack_require__(/*! ./assets/webpack.png */ "./src/assets/webpack.png")
+var img = document.createElement('img')
+img.src = imgSrc
+document.body.appendChild(img)
+
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=main.js.map
