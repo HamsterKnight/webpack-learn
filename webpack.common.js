@@ -3,12 +3,17 @@ const FileListPlugin = require('./plugin/FileListPlugin')
 console.log('abc')
 module.exports = {
   entry: {
-    main: './src/index.js' // 属性名： chunk的名称，属性值： 入口模块
+    main: './index.js' // 属性名： chunk的名称，属性值： 入口模块
   },
   devtool: 'source-map',
   output: {
+    library: 'abc',
     path: path.resolve(__dirname, 'dist'),// 必须配置一个绝对路径，表示资源放置的文件夹默认是dist
     filename: '[name].js' // 配置合并模块后的js代码文件的规则（可以是写死的一个文件名，也可以是一个路径和名字）
+  },
+  context: path.resolve(__dirname, 'src'),
+  externals: {
+    '-jquery': '$'
   },
   module: {
     rules:[
@@ -16,7 +21,7 @@ module.exports = {
         test: /\.(png)|(jpg)|(jpeg)|(gif)$/, // 匹配的文件
         use: [
           {
-            loader: './loaders/img-loader',
+            loader: './../loaders/img-loader',
             options: {
               limit: 10000,
               filename: 'img-[contenthash:5].[ext]'
