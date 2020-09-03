@@ -6,7 +6,7 @@ class FileListPlugin {
     compiler.hooks.emit.tap('test',   (compilation)=> {
       var fileList = []
       for(var key in compilation.assets) {
-        fileList.push(`name: key \n\n size: ${compilation.assets[key].size()}`)
+        fileList.push(`name: ${key}  size: ${compilation.assets[key].size()}`)
       }
       console.log(this.filename)
       var str = fileList.join('\n\n')
