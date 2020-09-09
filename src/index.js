@@ -1,3 +1,3 @@
-var a = require('./a.js')
-console.log('ccc')
-console.log('module index', a)
+require('./a.js')
+require('./server.js')
+console.log('入口')
