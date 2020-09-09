@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = 'a'\n\n//# sourceURL=webpack:///./abbb.js?");
+eval("module.exports = 'a'\n\n//# sourceURL=webpack:///./src/a.js?");
 
 /***/ }),
 
@@ -104,7 +104,7 @@ eval("module.exports = 'a'\n\n//# sourceURL=webpack:///./abbb.js?");
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var a = __webpack_require__(/*! ./a.js */ \"./src/a.js\")\r\nconsole.log('module index', a)\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("var a = __webpack_require__(/*! ./a.js */ \"./src/a.js\")\nconsole.log('ccc')\nconsole.log('module index', a)\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
