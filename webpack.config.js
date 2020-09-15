@@ -6,6 +6,19 @@ module.exports = {
   output: {
     filename: 'main-[hash:5].js'
   },
+  module: {
+    rules:[
+      {
+        test: /\.(png)|(jpg)|(gif)$/,
+        use: [{
+          loader: 'url-loader',
+          options: {
+            limit: 28000
+          }
+        }]
+      }
+    ]
+  },
   plugins: [new CleanWebpackPlugin(), new HtmlWebpackPlugin({
     template: './src/public/index.html'
   }), new CopyPlugin({
