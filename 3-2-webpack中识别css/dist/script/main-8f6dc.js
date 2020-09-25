@@ -92,15 +92,15 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "../../node_modules/css-loader/dist/cjs.js!./src/assets/base.css":
-/*!**************************************************************************************************!*\
-  !*** D:/aa-zengshixin-project/webpack/node_modules/css-loader/dist/cjs.js!./src/assets/base.css ***!
-  \**************************************************************************************************/
+/***/ "../../node_modules/css-loader/dist/cjs.js?!./src/assets/base.css":
+/*!************************************************************************************************************!*\
+  !*** D:/aa-zengshixin-project/webpack/node_modules/css-loader/dist/cjs.js??ref--5-1!./src/assets/base.css ***!
+  \************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"../../node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"../../node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _public_assets_webpack_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/assets/webpack.jpg */ \"./src/public/assets/webpack.jpg\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_public_assets_webpack_jpg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \".red {\\n  color: #f40;\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/assets/base.css?D:/aa-zengshixin-project/webpack/node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"../../node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"../../node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _public_assets_webpack_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/assets/webpack.jpg */ \"./src/public/assets/webpack.jpg\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_public_assets_webpack_jpg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"._2xrPK-maMfYnfIlplhuTcs {\\n  color: #f40;\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\\n\", \"\"]);\n// Exports\n___CSS_LOADER_EXPORT___.locals = {\n\t\"red\": \"_2xrPK-maMfYnfIlplhuTcs\"\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/assets/base.css?D:/aa-zengshixin-project/webpack/node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
@@ -169,7 +169,7 @@ eval("/* WEBPACK VAR INJECTION */(function($) {var imgUrl = __webpack_require__(
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!./base.css */ \"../../node_modules/css-loader/dist/cjs.js!./src/assets/base.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/assets/base.css?");
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./base.css */ \"../../node_modules/css-loader/dist/cjs.js?!./src/assets/base.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/assets/base.css?");
 
 /***/ }),
 
@@ -177,10 +177,11 @@ eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/di
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./assets/base.css */ \"./src/assets/base.css\")\n__webpack_require__(/*! ./a.js */ \"./src/a.js\")\n__webpack_require__(/*! ./server.js */ \"./src/server.js\")\nconsole.log('入口')\n\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_base_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/base.css */ \"./src/assets/base.css\");\n/* harmony import */ var _assets_base_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_base_css__WEBPACK_IMPORTED_MODULE_0__);\n\nconsole.log(_assets_base_css__WEBPACK_IMPORTED_MODULE_0___default.a)\n__webpack_require__(/*! ./a.js */ \"./src/a.js\")\n__webpack_require__(/*! ./server.js */ \"./src/server.js\")\nconsole.log('入口')\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
